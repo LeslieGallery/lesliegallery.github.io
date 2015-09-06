@@ -4,10 +4,11 @@ body {
 	font-color: #C24344;
 	background-color: #667AFF;
 }
-h1 {
+h3 {
 	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
 	font-color: #C24344;
+	font-style: italic;
 }
 ul {
 	font-family: "Comic Sans MS", sans-serif;
