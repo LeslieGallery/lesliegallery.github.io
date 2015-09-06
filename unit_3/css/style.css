@@ -1,10 +1,14 @@
 body {
-	font-family: "Comic Sans", sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
 	font: #C24344;
 	background-color: #667AFF;
 }
 h1 {
-	font-family: "Comic Sans", sans-serif;
+	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
+}
+ul {
+	font-family: "Comic Sans MS", sans-serif;
+	text-align: left;
 }
