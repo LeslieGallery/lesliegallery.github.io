@@ -1,17 +1,24 @@
+#title {
+	text-decoration: underline;
+}
 body {
 	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
-	color: #C24344;
+	color: #421C52;
 	background-color: #667AFF;
 }
-h3 {
+#slogan {
 	font-family: "Comic Sans MS", sans-serif;
 	text-align: center;
-	color: #C24344;
+	color: #421C52;
 	font-style: italic;
 }
 ul {
 	font-family: "Comic Sans MS", sans-serif;
 	text-align: left;
-	color: #C24344;
+	font-size: 14px;
+	color: #421C52;
 }
+div {
+	display: inline-block;
+	margin: 20px;
