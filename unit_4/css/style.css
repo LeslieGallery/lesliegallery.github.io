@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Belgrano);
+
+
+body {
+	font-family: 'Belgrano', serif;
+	text-align: center;
+	font-size: 16px;
+	color: #421C52;
+	background-color: rgba(102,122,255,.5);
+}
+#title {
+	font-family: 'Delius Swash Caps', cursive, sans-serif;
+	font-size: 2em;
+}
+p {
+	text-align: left;
+}
+
+#slogan {
+	font-family: 'Delius Swash Caps', cursive, sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	color: #421C52;
+	font-style: italic;
+}
+ul {
+	font-family: 'Belgrano', serif;
+	text-align: left;
+	font-size: 1em;
+	color: #421C52;
+}
+div {
+	display: inline-block;
+	margin: 20px;
+}	
