@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+
+* {margin:0; padding:0; box-sizing:border-box;
+	}
+
+body {
+	background: url("lounge.jpg");
+  	background-size: 100%;
+	font-family: 'Ariel', sans-serif;
+	text-align: left;
+	font-size: 16px;
+	color: black;
+}
+
+#title {
+	font-family: 'Montserrat Alternates', sans-serif;
+	width: 36%;
+	padding: 1% 2% 0% 10%;
+	margin: 0% 0% 0% 12%;
+}
+
+nav {
+	float: right;
+	font-family: 'Oswald', sans-serif;
+	width: 40%;
+	padding: 1% 10% 0% 5%;
+	}
+
+nav a {
+	text-decoration: none;
+}
+
+
+ul {
+	text-decoration: none;
+}
+
+li {
+	text-decoration: none;
+	float:left;
+	display: block;
+	padding: 1.5%;
+}
+
+a:hover {
+	background-color: #B3B3B3;
+}
+
+#categories {
+	display: block;
+	font-family: 'Lobster Two', cursive;
+	width: 75%;
+	padding: 1% 2% 0% 10%;
+	margin: 0% 0% 0% 12%;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
