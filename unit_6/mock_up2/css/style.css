@@ -6,8 +6,8 @@
 	}
 
 body {
-	background: url("lounge.jpg");
-  	background-size: 100%;
+	background: url("images/lounge.jpg");
+  	background-size: cover;
 	font-family: 'Ariel', sans-serif;
 	text-align: left;
 	font-size: 16px;
