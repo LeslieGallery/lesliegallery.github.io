@@ -2,8 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two);
 
-* {margin:0; padding:0; box-sizing:border-box;
-	}
+*{ margin:0; padding:0; box-sizing:border-box;}
 
 body {
 	background-image:url('images/lounge.jpg');
@@ -17,20 +16,27 @@ body {
 
 #title {
 	font-family: 'Montserrat Alternates', sans-serif;
-	width: 36%;
-	padding: 1% 2% 0% 10%;
-	margin: 0% 0% 0% 12%;
+	color: white;
+	font-size: 3em;
+	display: inline-block;
+	width: 50.67%;
+	padding: 1% 1% 0% 5%;
+	margin: .5%;
 }
 
 nav {
 	float: right;
 	font-family: 'Oswald', sans-serif;
-	width: 40%;
-	padding: 1% 10% 0% 5%;
+	text-align: center;
+	width: 41.33%;
+	padding: 1% 5% 0% 15%;
+	margin: .5%;
 	}
 
 nav a {
 	text-decoration: none;
+	padding: 1%;
+	color: white;
 }
 
 
@@ -47,16 +53,24 @@ li {
 
 a:hover {
 	background-color: #B3B3B3;
+	padding: 1%;
 }
 
 #categories {
 	display: block;
 	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
 	width: 75%;
-	padding: 1% 2% 0% 10%;
-	margin: 0% 0% 0% 12%;
+	padding: 0% 2% 0% 5%;
+	margin: .5%;
+	color: white;
 }
 
+img {
+	display: block;
+	margin: auto;
+	width: 700px;
+}
 .clearfix:after {
 	content: ".";
 	visibility: hidden;
