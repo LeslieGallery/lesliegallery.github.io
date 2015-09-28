@@ -18,7 +18,7 @@ body {
 	font-family: 'Montserrat Alternates', sans-serif;
 	color: white;
 	font-size: 3em;
-	display: inline-block;
+	display: inline;
 	width: 50%;
 	padding: 1em 1em 0em 5em;
 }
@@ -33,7 +33,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	padding: 1%;
+	padding: 2em;
 	color: white;
 }
 
@@ -58,9 +58,8 @@ a:hover {
 	display: block;
 	font-family: 'Lobster Two', cursive;
 	font-size: 1.5em;
-	width: 75%;
-	padding: 0% 2% 0% 5%;
-	margin: .5%;
+	width: 100%;
+	padding: 0em 2em 0em 5em;
 	color: white;
 }
 
