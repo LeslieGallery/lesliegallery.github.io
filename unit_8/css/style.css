@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps);
+@import url(https://fonts.googleapis.com/css?family=Belgrano);
+
+*{ margin:0; padding:0; box-sizing:border-box;}
+
+body {
+	background-image:url('images/yellow dialognal background copy.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-family: 'Belgrano', serif;
+	text-align: center;
+	font-size: 16px;
+	color: #421C52;
+}
+#title {
+	font-family: 'Lucida Handwriting',arial,'sans-serif';
+	font-size: 2em;
+	padding: .5em;
+}
+p {
+	text-align: left;
+}
+
+#slogan {
+	font-family: 'Delius Swash Caps', cursive, sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	color: #421C52;
+	font-style: italic;
+	padding: .5em;
+}
+div {
+	display: inline-block;
+	padding: 2%;
+	width: 35%;
+}
+section {
+	float: left;
+	padding: 0 1.5%;
+	width: 63%;
+}
+
+aside {
+	float: right;
+	padding: 5% 1.5%;
+	width: 30%;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
