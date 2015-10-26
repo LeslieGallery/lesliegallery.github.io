@@ -4,9 +4,9 @@
 *{ margin:0; padding:0; box-sizing:border-box;}
 
 body {
-	background-image:url('images/yellow dialognal background copy.jpg');
-	background-size:cover;
-	background-repeat: no-repeat;
+	background-image: url("yellow dialognal background.jpg");
+  	background-size: cover;
+  	background-repeat: no-repeat;
 	font-family: 'Belgrano', serif;
 	text-align: center;
 	font-size: 16px;
@@ -17,10 +17,6 @@ body {
 	font-size: 2em;
 	padding: .5em;
 }
-p {
-	text-align: left;
-}
-
 #slogan {
 	font-family: 'Delius Swash Caps', cursive, sans-serif;
 	text-align: center;
@@ -29,21 +25,44 @@ p {
 	font-style: italic;
 	padding: .5em;
 }
+section {
+	width: 63%;
+	float:left;
+}
+aside {
+	background-color: rgba(16,144,255,.25);
+	width: 33%;
+	float: right;
+	padding: 5% 0;
+}
+p {
+	padding: 7%;
+}
+a {
+	text-decoration: none;
+	padding: 2%;
+}
+ul {
+	font-family: "Comic Sans MS", sans-serif;
+	text-align: left;
+	font-size: 20px;
+	color: #421C52;
+}
 div {
 	display: inline-block;
-	padding: 2%;
-	width: 35%;
-}
-section {
-	float: left;
-	padding: 0 1.5%;
-	width: 63%;
+	padding: 2% 5%;
 }
 
-aside {
-	float: right;
-	padding: 5% 1.5%;
-	width: 30%;
+@media (max-width: 660px) {
+  aside {
+    display: block;
+    height: 50%;
+    width: 100%;
+  }
+  section {
+  	width: 100%;
+  	text-align: center;
+  }
 }
 .clearfix:after {
 	content: ".";
